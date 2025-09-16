@@ -4,8 +4,8 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
-        source: ":path*",
-        destination: "https://finevo.ch/app/:path*",
+        source: "/:path*",
+        destination: "https://finevo.ch/:path*",
       },
     ];
   },
